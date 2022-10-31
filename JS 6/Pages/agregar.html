@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Mascota</title>
+
+    <!-- Estilo de mi CSS-->
+    <link rel="stylesheet" href="../style.css"> 
+
+</head>
+
+<body class="Background1">
+  
+    <!-- Barra navegación -->
+    <header>
+      <nav class="Menu">
+        <ul>
+          <li class="ImagenNav"><a href="../index.html"><img src="../Images/HuellaNaranja.png" width="45px" alt=""></a></li>
+          <li><a href="../Pages/mascotas.html"> Mis Mascotas </a></li>
+          <li><a href="../Pages/agregar.html"> Agregar Mascota</a></li>
+        </ul>
+      </nav>
+  </header>
+     
+    <!-- Parrafo inicio -->
+      <h1 class="ParrafoInicio">
+        Lleva el registro de tus mejores amigos en un solo lugar
+      </h1>
+  
+    <!-- Formulario inicio -->
+    <div class="ContenedorFormulario">
+      <div class="DatosFormulario">
+        <h2>Conozcamos más a tu mejor amig@</h2>
+          <form class="DatosFormularioMascota">
+           <div class="EspaciosLargos">
+            <input id="NombreMascota" type="text" placeholder="Inserta el nombre de tu mascota">
+           </div> 
+           <div class="EspaciosLargos">
+            <input type="text" placeholder="¿Cómo describes a tu mascota?" id="DescribeMascota">
+           </div>
+           <div class="EspaciosLargos">
+            <input type="text" placeholder="Inserta raza de tu mascota" id="RazaMascota">
+           </div>
+           <div class="EspaciosCortos" >
+            <select name="cars" id="TamanoMascota">
+              <option value="pequeño">Pequeño</option>
+              <option value="mediano">Mediano</option>
+              <option value="grande">Grande</option>
+            </select>
+            <!-- <input type="text" placeholder="Tamaño" id="TamanoMascota"> -->
+            <input type="text" placeholder="Peso (Gr)" id="PesoMascota">
+            <input type="text" placeholder="Edad" id="EdadMascota">
+           </div>
+           <div class="Sexo">
+            <input type= "radio" value="Macho" name="sexo">Macho
+            <input type= "radio" value="Hembra" name="sexo">Hembra
+           </div>  
+           <div class="Sexo">
+            
+           </div>  
+           <div>
+            <input class="BotonAgregar" type="button" onclick="Agregar()" value="Agregar">
+           </div>
+          </form>
+      </div>
+    </div>
+
+  <!-- JS -->
+  <script src="../js-pages.js/llenarcard.js" type="text/javascript"></script>
+   
+</body>
+</html>
