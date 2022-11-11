@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+
+<!-- Estilo de mi CSS-->
+    <link rel="stylesheet" href="style.css">    
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+
+</head>
+
+<body class="Background1">
+
+  <!-- Barra navegación -->
+  <header>
+    <nav class="Menu">
+      <ul>
+        <li class="ImagenNav"><a href="index.html"><img src="Images/HuellaNaranja.png" width="45px" alt=""></a></li>
+        <li><a href="Pages/mascotas.html"> Mis Mascotas </a></li>
+        <li><a href="Pages/agregar.html"> Agregar Mascota</a></li>
+        <li><button id="BotonPerrito" > Perrito del día </button</li>
+
+      </ul>
+    </nav>
+  </header>
+   
+  <!-- Parrafo inicio -->
+    <h1 class="ParrafoInicio">
+      Lleva el registro de tus mejores amigos en un solo lugar
+    </h1>
+
+  <!-- Formulario inicio -->
+  <div class="ContenedorInicio">
+    <div class="NombreUsuario">
+      <h2>¡Hola!, ¿Cómo te llamas?</h2>
+        <form class="Usuario">
+         <div>
+          <input id="NombreUsuarioInicio" type="text" placeholder="Inserta tu nombre o apodo">
+         </div> 
+          <div>
+            <a class="BotonInicio" id="BotonGuardarUsuario" type="button" onclick="guardarNombreUsuario(); return null" href="#">Vamos</a>
+          </div>
+        </form>
+    </div>
+  </div>
+    
+  
+  
+
+
+  <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js-pages.js/main.js" type="text/javascript"></script>
+</body>
+</html>

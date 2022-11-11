@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Mascotas</title>
+
+ <!-- Estilo de mi CSS-->
+    <link rel="stylesheet" href="../style.css">    
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+
+</head>
+
+<body class="Background1">
+  <!-- Barra navegación -->
+  <header>
+    <nav class="Menu">
+      <ul>
+        <li class="ImagenNav"><a href="../index.html"><img src="../Images/HuellaNaranja.png" width="45px" alt=""></a></li>
+        <li><a href="../Pages/mascotas.html"> Mis Mascotas </a></li>
+        <li><a href="../Pages/agregar.html"> Agregar Mascota</a></li>
+        <li><button id="BotonPerrito" > Perrito del día </button</li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Buscador -->
+  <div class="ContenedorBuscador">
+    <input type="search" placeholder="Busca tu mascota" class="Buscador" id="inputBuscador"/>
+    <button class="BotonBuscador"> Buscar</button>
+  </div>
+  
+
+  <!-- Cards -->
+  <div class="ContenedorCards" id="ContenedorCardsId">
+
+  </div> 
+
+  <div class="ContenedorBotonAgregarMascota">
+    <a href="agregar.html">
+
+      <input class="BotonAgregarMascota" type="button" onclick="" value="Agregar Mascota">
+    </a>
+  </div>
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="../js-pages.js/main.js" type="text/javascript"></script>
+  <script src="../js-pages.js/mascotas.js" type="text/javascript"></script>
+</body>
+</html>
